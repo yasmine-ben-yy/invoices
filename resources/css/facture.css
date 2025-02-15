@@ -1,0 +1,108 @@
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre de la page */
+h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Formulaire */
+form {
+    margin-top: 20px;
+}
+
+/* Champs de formulaire */
+.form-label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.form-control, .form-select {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Boutons */
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.btn-success {
+    background-color: #27ae60;
+    border: none;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #219653;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+/* Section des produits */
+#produits-section {
+    margin-top: 20px;
+}
+
+.produit {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .produit .col-md-4, .produit .col-md-3, .produit .col-md-2 {
+        margin-bottom: 10px;
+    }
+}
