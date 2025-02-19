@@ -1,26 +1,17 @@
 <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
 <aside class="app-sidebar sidebar-scroll">
 <div class="main-sidebar-header active">
-    <!-- Logo pour les écrans de bureau - Thème clair -->
     <a class="desktop-logo logo-light active d-flex align-items-center" href="{{ url('/' . $page='home') }}">
         <img src="{{ URL::asset('assets/img/brand/logo2.png') }}" class="main-logo" alt="logo">
     </a>
 
-    <!-- Logo pour les écrans de bureau - Thème sombre -->
-    <a class="desktop-logo logo-dark active d-flex align-items-center" href="{{ url('/' . $page='home') }}">
-        <img src="{{ URL::asset('assets/img/brand/logo2.png') }}" class="main-logo dark-theme" alt="logo">
-    </a>
 
-    <!-- Logo pour les écrans mobiles - Thème clair -->
     <a class="logo-icon mobile-logo icon-light active d-flex align-items-center" href="{{ url('/' . $page='home') }}"">
         <img src="{{ URL::asset('assets/img/brand/logo2.png') }}" class="logo-icon" alt="logo">
         <span style="font-size: 20px; font-weight: bold; color: #333; margin-left: 10px;">Invoice</span>
     </a>
 
-    <!-- Logo pour les écrans mobiles - Thème sombre -->
-    <a class="logo-icon mobile-logo icon-dark active d-flex align-items-center" href="{{ url('/' . $page='index') }}">
-        <img src="{{ URL::asset('assets/img/brand/logo2.png') }}" class="logo-icon dark-theme" alt="logo">
-    </a>
+    
 </div>
 
 
