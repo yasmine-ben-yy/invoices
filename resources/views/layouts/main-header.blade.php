@@ -3,10 +3,8 @@
 				<div class="container-fluid">
 					<div class="main-header-left ">
 						<div class="responsive-logo">
-							<a href="{{ url('/' . $page='home') }}"><img src="{{URL::asset('assets/img/brand/logo2.png')}}" class="logo-1" alt="logo"></a>
-							<a href="{{ url('/' . $page='home') }}"><img src="{{URL::asset('assets/img/brand/logo2.png')}}" class="dark-logo-1" alt="logo"></a>
+
 							<a href="{{ url('/' . $page='home') }}"><img src="{{URL::asset('assets/img/brand/logo2.png')}}" class="logo-2" alt="logo"></a>
-							<a href="{{ url('/' . $page='home') }}"><img src="{{URL::asset('assets/img/brand/logo2.png')}}" class="dark-logo-2" alt="logo"></a>
 						</div>
 						<div class="app-sidebar__toggle" data-toggle="sidebar">
 							<a class="open-toggle" href="#"><i class="header-icon fe fe-align-left" ></i></a>
